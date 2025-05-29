@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>  
+    
+  <div class="top-banner">
+    <ul class="banner-list">
+        <li class="listing">
+            <a href="/were-safe-2">
+                Asias 1st Brand with MADE SAFE Certified Products
+            </a>
+        </li>
+        <li class="listing">
+            <div>
+                <a class="link-color" href="/omg">
+                    OMG Sale Ends in Few Hours | Buy 1 Get 1 FREE | Use Coupon: OMG | Shop Now
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="mama">mama</span><span class="earth">earth</span>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for Ubtan">
+                <button class="search-btn">  <i class="fas fa-search"></i> Search</button>
+            </div>
+            
+            <div class="header-right">
+                <div class="insider-badge">
+                    Get exclusive<br>offers!
+                </div>
+                <div class="header-icons">
+                    <a href="#" class="header-icon">🛒 Cart</a>
+                    <a href="#" class="header-icon">👤 Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="nav-item active">HOME</a>
+            <a href="#" class="nav-item">FACE</a>
+            <a href="#" class="nav-item">HAIR</a>
+            <a href="#" class="nav-item">MAKEUP</a>
+            <a href="#" class="nav-item">BODY</a>
+            <a href="#" class="nav-item">BABY</a>
+            <a href="#" class="nav-item">COMBOS</a>
+            <a href="#" class="nav-item">NEW LAUNCHES</a>
+            <a href="#" class="nav-item">INGREDIENT</a>
+            <a href="#" class="nav-item">ALL PRODUCTS</a>
+            <a href="#" class="nav-item">BLOG</a>
+            <a href="#" class="nav-item">PLANT GOODNESS</a>
+            <a href="#" class="nav-item">STORE LOCATOR</a>
+        </div>
+    </nav>
+
+   <section class="image-slider">
+        <div class="slider-container" id="sliderContainer">
+            <div class="slide slide-1">
+                <div class="slide-content">
+                </div>
+            </div>
+            
+            <div class="slide slide-2">
+                <div class="slide-content">
+                </div>   
+            </div>
+            
+            <div class="slide slide-3">
+                <div class="slide-content">
+                   
+            </div>
+        </div>
+        
+        <button class="slider-nav prev" onclick="prevSlide()">‹</button>
+        <button class="slider-nav next" onclick="nextSlide()">›</button>
+        
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>     
+    <!-- Best Sellers Section -->
+    <section class="best-sellers">
+        <div class="section-header">
+            <h2 class="section-title">Best Sellers</h2>
+            <button class="view-all-btn">VIEW ALL</button>
+        </div>
+        
+        <p class="section-description">
+            Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth. Get<br> amazing deals and start your natural journey today!
+        </p>
+        
+        <section class="products-section">
+        <div class="container">
+            <div class="products-grid" style="position: relative;">
+                <button class="navigation-arrows nav-left">‹</button>
+                
+                <div class="product-card">
+                    <div class="product-badge badge-stock-low">STOCK RUNNING LOW</div>
+                    <img src="https://images.mamaearth.in/catalog/product/r/i/rice-fw_1.jpg?format=auto&width=400&height=400" alt="Rice Face Wash" class="product-image">
+                    <div class="product-title">Rice Face Wash With Rice Water & Niacinamide for Glass Skin - 150ml</div>
+                    <div class="product-benefits">Gently Cleanses Skin | Hydrates Skin</div>
+                    <div class="product-size">150ml</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">4.5</span>
+                        <span class="review-count">📝 123 Reviews</span>
+                    </div>
+                    <div class="product-price">₹399</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-no1">NO. 1 FACE WASH</div>
+                    <img src="https://images.mamaearth.in/catalog/product/1/_/1_125.jpg?format=auto&width=400&height=400" alt="Ubtan Face Wash" class="product-image">
+                    <div class="product-title">Ubtan Natural Glow Face Wash with Turmeric & Saffron for Tan Removal - 150ml</div>
+                    <div class="product-benefits">Removes Tan | Brightens Skin</div>
+                    <div class="product-size">150ml</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">4.8</span>
+                        <span class="review-count">📝 464 Reviews</span>
+                    </div>
+                    <div class="product-price">₹399</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-loved">MOST LOVED SUNSCREEN</div>
+                    <img src="https://images.mamaearth.in/catalog/product/v/i/vit_c_glow_sunscreen1_white_bg_1.jpg?format=auto&width=400&height=400" alt="Vitamin C Sunscreen" class="product-image">
+                    <div class="product-title">Vitamin C Daily Glow Sunscreen with Vitamin C & Turmeric for Sun Protection - 50g</div>
+                    <div class="product-benefits">SPF 50 & PA++++ Protection | Adds Natural Glow</div>
+                    <div class="product-size">50g</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">5.0</span>
+                        <span class="review-count">📝 232 Reviews</span>
+                    </div>
+                    <div class="product-price">₹349</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-selling-fast">SELLING FAST</div>
+                    <img src="https://images.mamaearth.in/catalog/product/1/-/1-with-ingredients_3.jpg?format=auto&width=400&height=400" alt="Beetroot Face Wash" class="product-image">
+                    <div class="product-title">Beetroot Gentle Face Wash With Beetroot & Hyaluronic Acid - 100ml</div>
+                    <div class="product-benefits">Gives Natural Pink Glow | Hydrates Skin Intensely</div>
+                    <div class="product-size">100ml</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">5.0</span>
+                        <span class="review-count">📝 143 Reviews</span>
+                    </div>
+                    <div class="product-price">₹269</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <button class="navigation-arrows nav-right">›</button>
+            </div>
+        </div>
+    </section>
+    </section>
+
+<!-- baby section -->
+
+ <section class="best-sellers">
+        <div class="section-header">
+            <h2 class="section-title">BABY CARE</h2>
+            <button class="view-all-btn">VIEW ALL</button>
+        </div>
+        
+        <p class="section-description">
+            Your little bundle of joy deserves nothing but the best. Explore MadeSafe Certified, natural, 100% toxin-free & gentle baby care products by<br> Mamaearth. Give your little one the care they deserve!
+        </p>
+        
+        <section class="products-section">
+        <div class="container">
+            <div class="products-grid" style="position: relative;">
+                <button class="navigation-arrows nav-left">‹</button>
+                
+                <div class="product-card">
+                    <div class="product-badge badge-stock-low">MUST TRY</div>
+                    <img src="https://images.mamaearth.in/catalog/product/1/_/1_97.jpg?format=auto&width=400&height=400" alt="Rice Face Wash" class="product-image">
+                    <div class="product-title">Milky Soft Shampoo with Oats, Milk and Calendula for Babies...</div>
+                    <div class="product-benefits">Gently Cleanses Hair | Balances Scalp pH</div>
+                    <div class="product-size">400ml</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">5.0</span>
+                        <span class="review-count">📝 81 Reviews</span>
+                    </div>
+                    <div class="product-price">₹499</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-no1">No.1 BABY SOAP</div>
+                    <img src="https://images.mamaearth.in/catalog/product/f/d/fds_9573-props_qwhqvlzshodrynok.jpg?format=auto&width=400&height=400" alt="Ubtan Face Wash" class="product-image">
+                    <div class="product-title">Moisturizing Bathing Bar Soap For Babies, pack of 2*75g</div>
+                    <div class="product-benefits">Retains Moisture | Cleanses Gently | pH Balanced</div>
+                    <div class="product-size">150G</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">4.7</span>
+                        <span class="review-count">📝 201 Reviews</span>
+                    </div>
+                    <div class="product-price">₹249</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-no1">NO.1 BABY SUNSCREAM</div>
+                    <img src="https://images.mamaearth.in/catalog/product/1/_/1_26.jpg?format=auto&width=400&height=400" alt="Ubtan Face Wash" class="product-image">
+                    <div class="product-title">Mamaearth Baby Rich Moisturizing Ultra Light SunscreenN..</div>
+                    <div class="product-benefits">SPF 50 & PA++++ | Water Resistant | Lightweight & Moisturizing</div>
+                    <div class="product-size">50g</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">4.7</span>
+                        <span class="review-count">📝 50 Reviews</span>
+                    </div>
+                    <div class="product-price">₹399</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                 <div class="product-card">
+                    <div class="product-badge badge-no1">Best SELLER</div>
+                    <img src="https://images.mamaearth.in/catalog/product/1/_/1_99.jpg?format=auto&width=400&height=400" alt="Ubtan Face Wash" class="product-image">
+                    <div class="product-title">Milky Soft Body Lotion for Babies with Oats, Milk and Calendula -</div>
+                    <div class="product-benefits">Gives Natural Pink Glow | Hydrates Skin Intensely</div>
+                    <div class="product-size">400ml</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">4.8</span>
+                        <span class="review-count">📝 130 Reviews</span>
+                    </div>
+                    <div class="product-price">₹499</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+                <button class="navigation-arrows nav-right">›</button>
+            </div>
+        </div>
+    </section>
+    </section>
+<!-- summer essentials -->
+
+    <section class="best-sellers">
+        <div class="section-header">
+            <h2 class="section-title">Summer Essentials</h2>
+            <button class="view-all-btn">VIEW ALL</button>
+        </div>
+        
+        <p class="section-description">
+          Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth. Get amazing deals and start your toxin-free<br> skin, hair, and baby care journey.
+        </p>
+        
+        <section class="products-section">
+        <div class="container">
+            <div class="products-grid" style="position: relative;">
+                <button class="navigation-arrows nav-left">‹</button>
+                
+                <div class="product-card">
+                    <div class="product-badge badge-stock-low">BEST SELLER</div>
+                    <img src="https://images.mamaearth.in/catalog/product/v/i/vit_c_glow_sunscreen1_white_bg.jpg?format=auto&width=400&height=400" alt="Rice Face Wash" class="product-image">
+                    <div class="product-title">Vitamin C Daily Glow Sunscreen With Vitamin C & Turmeric for Sun..</div>
+                    <div class="product-benefits">SPF 50 & PA++++ Protection | Adds Natural Glow</div>
+                    <div class="product-size">80g</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">5.0</span>
+                        <span class="review-count">📝 157 Reviews</span>
+                    </div>
+                    <div class="product-price">₹499</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-no1">BEST SELLER</div>
+                    <img src="https://images.mamaearth.in/catalog/product/v/i/vit-c-face-wash-1.jpg?format=auto&width=400&height=400" alt="Ubtan Face Wash" class="product-image">
+                    <div class="product-title">Vitamin C Face Wash with Vitamin C and Turmeric for Skin...</div>
+                    <div class="product-benefits">Removes Tan | Brightens Skin</div>
+                    <div class="product-size">250ml</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">4.8</span>
+                        <span class="review-count">📝 331 Reviews</span>
+                    </div>
+                    <div class="product-price">₹499</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-loved">BEST SELLER</div>
+                    <img src="https://images.mamaearth.in/catalog/product/1/-/1-with-ingredients_11.jpg?format=auto&width=400&height=400" alt="Vitamin C Sunscreen" class="product-image">
+                    <div class="product-title">Beetroot Daily Glow Face Cream With Beetroot & Hyaluronic Acid...</div>
+                    <div class="product-benefits">Gives A Hydrated Pink Glow | Makes Skin Soft | Gives Instant Brightening Effect</div>
+                    <div class="product-size">80g</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">5.0</span>
+                        <span class="review-count">📝 115 Reviews</span>
+                    </div>
+                    <div class="product-price">₹249</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge badge-selling-fast">TERNDING</div>
+                    <img src="https://images.mamaearth.in/catalog/product/p/r/product_with_ingrident_copy.jpg?format=auto&width=400&height=400" alt="Beetroot Face Wash" class="product-image">
+                    <div class="product-title">Tea Tree Oil Control Face Wash, 100ml</div>
+                    <div class="product-benefits">Controls Acne & Pimples | Removes Excess Oil</div>
+                    <div class="product-size">100ml</div>
+                    <div class="product-rating">
+                        <span class="rating-star">★</span>
+                        <span class="rating-number">4.7</span>
+                        <span class="review-count">📝 115 Reviews</span>
+                    </div>
+                    <div class="product-price">₹269</div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <button class="navigation-arrows nav-right">›</button>
+            </div>
+        </div>
+    </section>
+    </section>
+    
+
+    <div class="video-container">
+        <div class="video-section">
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/YROZybuYGUE?autoplay=0&amp;controls=0" 
+                    title="Goodness Inside: Its all in the little choices we make"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Our Goodness Promise</h2>
+            <p>
+                At Mamaearth, we live to spread a little love and goodness every day. We believe that 
+                goodness isn't a superpower, nor a special gift, it's inside all of us and it shows in the little 
+                choices we make. Our mission is to bring you the best of nature through our purest and 
+                most nurturing products that are made without any toxins or harmful chemicals. For us 
+                goodness also means being good to the earth. Which is why we recycle more plastic than we 
+                use and we're PETA Certified - which means we never test on animals. This is our 
+                #GoodnessInside.
+            </p>
+            
+            <div class="button-container">
+                <a href="#" class="btn btn-primary">SHOP NOW</a>
+                <a href="#" class="btn btn-secondary">OUR PLEDGES</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Standards Section -->
+    <section class="standards-section">
+        <div class="standards-container">
+            <h2 class="standards-title">Super Safe Standards</h2>
+            
+            <div class="standards-grid">
+                <div class="standard-item">
+                    <div class="standard-icon dermatology-icon">
+                        DERMATO<br>LOGICALLY<br>TESTED
+                    </div>
+                    <div class="standard-content">
+                        <h3>Dermatologically Tested</h3>
+                        <p>We ensure each product is tested clinically on the sensitive human skin to ensure that it is not allergic.</p>
+                    </div>
+                </div>
+
+                <div class="standard-item">
+                    <div class="standard-icon fda-icon">
+                        FDA<br>APPROVED
+                    </div>
+                    <div class="standard-content">
+                        <h3>FDA Approved</h3>
+                        <p>MamaEarth is FDA approved, which means we are 100% safe to be used for babies as well as mamas.</p>
+                    </div>
+                </div>
+
+                <div class="standard-item">
+                    <div class="standard-icon safe-icon">
+                        MADE<br>SAFE<br>CERTIFIED
+                    </div>
+                    <div class="standard-content">
+                        <h3>Made Safe Certified</h3>
+                        <p>The MADE SAFE (Made with Safe Ingredients™) seal means that a product is literally made with safe ingredients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="testimonials-section">
+        <h2 class="section-title">What Our Customers Say</h2>
+        
+        <div class="testimonials-container">
+            <button class="nav-arrow left" onclick="slideTestimonials('left')">‹</button>
+            
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    I have always used only natural products for my baby. One day, I came across Mamaearth's products during an online search. I bought its Baby Shampoo, Toothpaste, and Face Cream; they all were toxin-free and effective. The shopping experience and payment system were safe, fast, and quick.
+                </p>
+                <div class="customer-info">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b977?w=100&h=100&fit=crop&crop=face" alt="Manisha" class="customer-avatar">
+                    <div class="customer-details">
+                        <h4>Manisha</h4>
+                        <span class="rating">5.0 ★</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    I was facing excessive hair fall. I thus tried Mamaearth's Onion Shampoo, Onion Hair Mask, Onion Hair Serum, and Hair Oil Booster. These toxin-free hair care products are effective at minimizing these issues. I also use Ubtan Face Wash to keep sun tan away.
+                </p>
+                <div class="customer-info">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Tanmay" class="customer-avatar">
+                    <div class="customer-details">
+                        <h4>Tanmay</h4>
+                        <span class="rating">5.0 ★</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    Being made of natural and toxin-free ingredients, Mamaearth's skincare and hair care products are very effective. They make my skin and hair healthy. I use Ubtan Face Wash, which is great for sun tan removal and prevents hyper-pigmentation. If you are looking for any issues related to your skincare or hair care plans, you should opt for these products.
+                </p>
+                <div class="customer-info">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Priyanshi Singh" class="customer-avatar">
+                    <div class="customer-details">
+                        <h4>Priyanshi Singh</h4>
+                        <span class="rating">5.0 ★</span>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="nav-arrow right" onclick="slideTestimonials('right')">›</button>
+        </div>
+        
+        <div class="curved-background"></div>
+    </section>
+    
+    <div class="chat-bubble" title="Chat with us"></div>
+
+   
+   <script src="script.js"></script>
+</body>
+</html>
